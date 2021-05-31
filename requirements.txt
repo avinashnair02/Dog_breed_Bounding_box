@@ -1,3 +1,4 @@
+-f https://download.pytorch.org/whl/torch_stable.html
 absl-py==0.12.0
 backcall==0.2.0
 cachetools==4.2.2
@@ -52,8 +53,8 @@ tensorflow-cpu==2.5.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
 threadpoolctl==2.1.0
-torch==1.8.0
-torchvision==0.9.0
+torch==1.8.0+cpu
+torchvision==0.9.0+cpu
 tqdm==4.60.0
 traitlets==5.0.5
 typing-extensions==3.10.0.0
