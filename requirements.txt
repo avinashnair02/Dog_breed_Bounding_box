@@ -53,8 +53,8 @@ tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
 thop==0.0.31.post2005241907
 threadpoolctl==2.1.0
-torch==1.8.1
-torchvision==0.9.1
+torch==1.6.0+cpu
+torchvision==0.7.0+cpu
 tqdm==4.60.0
 traitlets==5.0.5
 typing-extensions==3.10.0.0
