@@ -1,1 +1,1 @@
-416x288 1 dog-beagle, Done. (0.347s)
+416x288 1 dog-american_bulldog, Done. (0.254s)
