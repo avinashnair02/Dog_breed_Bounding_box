@@ -25,6 +25,14 @@ def get_output():
 
         command = "python yolov5/detect.py --weights yolov5/best.pt --img 416 --conf 0.4 --source static/im2.jpg"
         os.system(command)
+        tes = open(r'C:\Users\Avinish\Desktop\torch\static\cyris.txt','r')
+        tes1=tes.read()
+        print(tes1)
+        gg=tes1.split(' ')[2]
+        final=gg[:-1]
+        print(final)
+        
+
 
         p='hi'
 
