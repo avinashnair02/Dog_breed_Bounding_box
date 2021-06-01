@@ -1,1 +1,1 @@
-web: gunicorn wsgi:app
+from app.main import app 
