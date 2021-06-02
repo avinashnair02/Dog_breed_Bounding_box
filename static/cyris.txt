@@ -1,1 +1,1 @@
-416x288 1 dog-american_bulldog, Done. (0.254s)
+320x416 1 cat-Bombay, Done. (0.359s)

@@ -36,7 +36,7 @@ def get_output():
 
         p='hi'
 
-    return render_template("index.html", prediction = p, img_path = img_path)
+    return render_template("index.html", prediction = p, img_path = img_path, breed = final)
 
 
 
