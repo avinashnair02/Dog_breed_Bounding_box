@@ -4,16 +4,17 @@ import os
 import cv2
 from flask import Flask, redirect, url_for, request, render_template
 
-
 app = Flask(__name__)
 
+# routes
 # routes
 @app.route("/", methods=['GET', 'POST'])
 def main():
 	return render_template("index.html")
 
+@app.route("/submit", methods=['GET', 'POST'])
 
-@app.route("/submit", methods = ['GET', 'POST'])
+
 def get_output():
     if request.method == 'POST':
         img = request.files['my_image']
@@ -27,9 +28,12 @@ def get_output():
         os.system(command)
         tes = open(r'C:\Users\Avinish\Desktop\torch\static\cyris.txt','r')
         tes1=tes.read()
+        tes1=tes1.replace('Done','')
         print(tes1)
-        gg=tes1.split(' ')[2]
-        final=gg[:-1]
+        #gg=tes1.split(' ')[2]
+
+        #final=gg[:-1]
+        final=tes1
         print(final)
         
 

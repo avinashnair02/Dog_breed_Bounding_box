@@ -3,7 +3,10 @@ console.log('WORKING')
 function ssubmit(){
     console.log('CLICKED ON SUBMIT')
     const loadingEl = document.getElementById('load_cont')
-    loadingEl.style.display = 'flex'
+     loadingEl.style.display = 'flex'
+    const imageEl = document.getElementById('img_cont')
+    imageEl.style.display = 'none'
+   
 }
 
 
@@ -18,4 +21,5 @@ anime({
   delay: anime.stagger(200, {grid: [16,10], from: 7}),
   loop: true
 })
+
 

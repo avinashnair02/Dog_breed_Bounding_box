@@ -25,3 +25,8 @@
     width: 70%;
   }
   
+.btn-success {
+  color: white;
+  background-color:red;
+  border-color:yellow;
+}

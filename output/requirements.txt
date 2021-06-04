@@ -1,8 +1,6 @@
 -f https://download.pytorch.org/whl/torch_stable.html
 Flask==2.0.1
 Flask-Cors==3.0.10
-jedi==0.18.0
-Jinja2==3.0.1
 opencv-python==4.5.2.52
 #Pillow==8.2.0
 PyYAML==5.4.1
