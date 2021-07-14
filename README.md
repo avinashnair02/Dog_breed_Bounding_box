@@ -3,6 +3,6 @@ The Projects Detects and Classifies the Dog and Cat Based on their Breed.
 
 
 
+![image](https://user-images.githubusercontent.com/48132861/125553637-88fd73ca-f7ea-4e6c-ac43-95de92c768f9.png)
 
-![image](https://user-images.githubusercontent.com/48132861/125553596-fe3ef5c2-dae6-4723-9ce9-d522150b20cf.png)
 
